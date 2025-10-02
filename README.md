@@ -5,7 +5,6 @@ React + Vite + TypeScript template for building apps with shadcn/ui.
 ## Getting Started
 
 ```bash
-npx degit hayyi2/react-shadcn-starter my-project
 cd my-project
 npm install
 npm run dev
