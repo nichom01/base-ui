@@ -14,11 +14,11 @@ export const appConfig: AppConfigType = {
     name: import.meta.env.VITE_APP_NAME ?? "UI Builder",
     github: {
         title: "React Shadcn Starter",
-        url: "https://github.com/nichom03/react-shadcn-starter",
+        url: "https://github.com/nichom01/base-ui",
     },
     author: {
-        name: "nichom03",
-        url: "https://github.com/nichom03",
+        name: "nichom01",
+        url: "https://github.com/nichom01",
     }
 }
 

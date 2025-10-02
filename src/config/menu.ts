@@ -33,6 +33,14 @@ export const mainMenu: MenuType = [
                 title: 'Coming Soon',
                 url: '/pages/feature',
             },
+            {
+                title: 'Graph',
+                url: '/pages/chart',
+            },
+            {
+                title: 'Sign In',
+                url: '/pages/login',
+            },
         ]
     },
     {
