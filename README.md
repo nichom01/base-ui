@@ -67,6 +67,16 @@ react-shadcn-starter/
 └── vite.config.ts     # Vite configuration
 ```
 
+## Diagrams
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](https://github.com/hayyi2/react-shadcn-starter/blob/main/LICENSE) file for details.
