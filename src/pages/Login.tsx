@@ -19,6 +19,7 @@ export default function Login() {
         <PageHeader>
             <PageHeaderHeading>Sign In</PageHeaderHeading>
         </PageHeader>
+        <div className="flex justify-center items-center h-screen" >
     <Card className="w-full max-w-sm">
       <CardHeader>
         <CardTitle>Login to your account</CardTitle>
@@ -45,7 +46,7 @@ export default function Login() {
               <div className="flex items-center">
                 <Label htmlFor="password">Password</Label>
                 <a
-                  href="#"
+                  href="login"
                   className="ml-auto inline-block text-sm underline-offset-4 hover:underline"
                 >
                   Forgot your password?
@@ -65,6 +66,7 @@ export default function Login() {
         </Button>
       </CardFooter>
     </Card>
+    </div>
     </>
   )
 }

@@ -31,6 +31,38 @@ export default function Chart() {
         <PageHeader>
             <PageHeaderHeading>Charting Page</PageHeaderHeading>
         </PageHeader>
+        <Card className="w-full max-w-sm shadow-lg m-4">
+            <ChartContainer config={chartConfig} className="min-h-[200px] w-full">
+            <BarChart accessibilityLayer data={chartData}>
+                <Bar dataKey="desktop" fill="var(--color-desktop)" radius={4} />
+                <Bar dataKey="mobile" fill="var(--color-mobile)" radius={4} />
+            </BarChart>
+            </ChartContainer>
+        </Card>
+        <Card className="w-full max-w-sm">
+            <ChartContainer config={chartConfig} className="min-h-[200px] w-full">
+            <BarChart accessibilityLayer data={chartData}>
+                <Bar dataKey="desktop" fill="var(--color-desktop)" radius={4} />
+                <Bar dataKey="mobile" fill="var(--color-mobile)" radius={4} />
+            </BarChart>
+            </ChartContainer>
+        </Card>
+        <Card className="w-full max-w-sm shadow-md">
+            <ChartContainer config={chartConfig} className="min-h-[200px] w-full">
+            <BarChart accessibilityLayer data={chartData}>
+                <Bar dataKey="desktop" fill="var(--color-desktop)" radius={4} />
+                <Bar dataKey="mobile" fill="var(--color-mobile)" radius={4} />
+            </BarChart>
+            </ChartContainer>
+        </Card>
+        <Card className="w-full max-w-sm">
+            <ChartContainer config={chartConfig} className="min-h-[200px] w-full">
+            <BarChart accessibilityLayer data={chartData}>
+                <Bar dataKey="desktop" fill="var(--color-desktop)" radius={4} />
+                <Bar dataKey="mobile" fill="var(--color-mobile)" radius={4} />
+            </BarChart>
+            </ChartContainer>
+        </Card>
         <Card className="w-full max-w-sm">
             <ChartContainer config={chartConfig} className="min-h-[200px] w-full">
             <BarChart accessibilityLayer data={chartData}>
